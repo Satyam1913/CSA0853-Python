@@ -1,0 +1,5 @@
+print("Enter the string:",end="")
+str=input()
+str=sorted(str)
+str=''.join(str)
+print("\nSorted String in Descending is:",str)
